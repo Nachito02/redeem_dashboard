@@ -2,8 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 // Archivo de traducción
-import translationES from '../locales/es/translationES.json';
-import translationEN from '../locales/en/translationEn.json';
+import translationEn from '../locales/es/translationEs.json';
+import translationEs from '../locales/en/translationEn.json';
 
 i18n
   .use(initReactI18next)
@@ -15,10 +15,10 @@ i18n
     // Archivos de traducción
     resources: {
       es: {
-        translation: '../locales/es/translationES.json',
+        translation: translationEs,
       },
       en: {
-        translation: '../locales/en/translationEn.json',
+        translation: translationEn,
       },
     },
 
