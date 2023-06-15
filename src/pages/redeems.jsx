@@ -8,7 +8,7 @@ import Topbar from "@/components/Topbar.jsx";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
 import Head from "next/head.js";
-const redeems = ({ redeems, profile }) => {
+const Redeems = ({ redeems, profile }) => {
 
  
 
@@ -154,7 +154,7 @@ const redeems = ({ redeems, profile }) => {
   );
 };
 
-export default redeems;
+export default Redeems;
 
 export async function getServerSideProps(context) {
   const session = await getSession(context);

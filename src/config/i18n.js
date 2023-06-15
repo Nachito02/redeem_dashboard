@@ -15,10 +15,10 @@ i18n
     // Archivos de traducción
     resources: {
       es: {
-        translation: translationES,
+        translation: '../locales/es/translationES.json',
       },
       en: {
-        translation: translationEN,
+        translation: '../locales/en/translationEn.json',
       },
     },
 
